@@ -14,8 +14,6 @@
 [![GitHub Release](https://img.shields.io/github/v/release/Sunwood-ai-labs/RonJ_Book?sort=date&color=red)](https://github.com/Sunwood-ai-labs/RonJ_Book)
 [![GitHub Tag](https://img.shields.io/github/v/tag/Sunwood-ai-labs/RonJ_Book?color=orange)](https://github.com/Sunwood-ai-labs/RonJ_Book)
 
-  <br>
-
 </h2>
 
 </p>
@@ -26,7 +24,6 @@
   <!-- <a href="https://huggingface.co/llm-agents"><b>[🤗 HF Models]</b></a> • -->
   <a href="https://github.com/Sunwood-ai-labs/RonJ_Book"><b>[🐱 GitHub]</b></a>
   <!-- <a href="https://9557c5365a6f44dc84.gradio.live"><b>[🐯 Gradio Demo]</b></a> -->
-  <br>
   <a href="https://twitter.com/hAru_mAki_ch"><b>[🐦 Twitter]</b></a> •
   <!-- <a href="https://www.reddit.com/r/LocalLLaMA/comments/1703k6d/tora_a_toolintegrated_reasoning_agent_for/"><b>[💬 Reddit]</b></a> • -->
   <a href="https://hamaruki.com/explaining-the-paper-in-a-nanj-style-the-lively-discussion-between-experts-and-beginners-is-interesting/">[🍀 Official Blog]</a>
@@ -48,7 +45,7 @@
 
 **RonJ：Book**には、「RonJ」を生成するためのプロンプトが詰まっています。あなたも、自分の読みたい論文を「RonJ」形式で理解してみませんか？
 
-## 🎥 Demo
+<!-- ## 🎥 Demo -->
 
 ## 🚀 Getting Started
 
@@ -79,7 +76,7 @@
 
 ```
 
-## 📝 Updates
+<!-- ## 📝 Updates -->
 
 ## 🤝 Contributing
 
