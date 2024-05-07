@@ -1,16 +1,3 @@
----
-title: HarmonAI II
-emoji: 🌖
-colorFrom: purple
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.33.0
-app_file: app.py
-pinned: false
-license: mit
----
-
-
 <p align="center">
 <img src="docs/ronj_book_icon.png" width="100%">
 <br>
@@ -51,11 +38,29 @@ license: mit
 >[!IMPORTANT]
 >このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
 
-
 ## 🌟 Introduction
 
+**RonJ：Book**は、論文をなんJ風のスレッド形式で解説するプロンプト集です。
 
-プロンプト
+難しい論文の構成や文章も、初心者でも面白可笑しく理解することができます！
+
+「RonJ」は **R**ead **on** **J**ournalの略で、論文（Journal）を読む（Read）ことをなんJ（onJ）風に行うという意味合いが込められています。
+
+**RonJ：Book**には、「RonJ」を生成するためのプロンプトが詰まっています。あなたも、自分の読みたい論文を「RonJ」形式で理解してみませんか？
+
+## 🎥 Demo
+
+## 🚀 Getting Started
+
+### Usage
+
+1. 「RonJ」にしたい論文を用意します。
+2. **RonJ：Book**に含まれるプロンプトを使って、ChatGPTやClaude.aiなどのLLMに論文を入力します。
+3. LLMが生成したなんJ風の論文解説を楽しみましょう！
+
+### Customization
+
+**RonJ：Book**のプロンプトはカスタマイズ可能です。論文の分野や難易度に合わせて、プロンプトを調整してみてください。
 
 ```bash
 
@@ -74,34 +79,22 @@ license: mit
 
 ```
 
-## 🎥 Demo
-
-## 🚀 Getting Started
-
-### Installation
-
-### Usage
-
-
-### Customization
-
-
 ## 📝 Updates
-
 
 ## 🤝 Contributing
 
+**RonJ：Book**はオープンソースプロジェクトです。プロンプトの改善案やアイデアがありましたら、ぜひPRを送ってください！
 
 ## 📄 License
 
-HarmonAI IIは[MIT License](LICENSE)の下でリリースされています。
+RonJ：Bookは[MIT License](LICENSE)の下でリリースされています。
 
 ## 🙏 Acknowledgements
 
-HarmonAI IIの開発にあたり、以下の方々に感謝いたします:
+RonJ：Bookの開発にあたり、以下の方々に感謝いたします:
 
 - [Sunwood-ai-labs](https://github.com/Sunwood-ai-labs)チームのメンバー
-- [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)プロジェクト
+- [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)プロジェクト 
 - [claude.ai](https://claude.ai/)チーム
 
-引き続き、HarmonAI IIプロジェクトをよろしくお願いいたします！
+引き続き、RonJ：Bookプロジェクトをよろしくお願いいたします！
