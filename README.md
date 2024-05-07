@@ -33,6 +33,21 @@ license: mit
 
 </p>
 
+<p align="center">
+  <a href="https://microsoft.github.io/ToRA/"><b>[🌐 Website]</b></a> •
+  <a href="https://arxiv.org/abs/2309.17452"><b>[📜 Paper]</b></a> •
+  <a href="https://huggingface.co/llm-agents"><b>[🤗 HF Models]</b></a> •
+  <a href="https://github.com/microsoft/ToRA"><b>[🐱 GitHub]</b></a>
+  <!-- <a href="https://9557c5365a6f44dc84.gradio.live"><b>[🐯 Gradio Demo]</b></a> -->
+  <br>
+  <a href="https://twitter.com/zhs05232838/status/1708860992631763092"><b>[🐦 Twitter]</b></a> •
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1703k6d/tora_a_toolintegrated_reasoning_agent_for/"><b>[💬 Reddit]</b></a> •
+  <a href="https://notes.aimodels.fyi/researchers-announce-tora-training-language-models-to-better-understand-math-using-external-tools/">[🍀 Unofficial Blog]</a>
+  <!-- <a href="#-quick-start">Quick Start</a> • -->
+  <!-- <a href="#%EF%B8%8F-citation">Citation</a> -->
+</p>
+
+
 >[!IMPORTANT]
 >このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
 
