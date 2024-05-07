@@ -33,11 +33,43 @@ license: mit
 
 </p>
 
+<p align="center">
+  <a href="https://microsoft.github.io/ToRA/"><b>[🌐 Website]</b></a> •
+  <a href="https://arxiv.org/abs/2309.17452"><b>[📜 Paper]</b></a> •
+  <a href="https://huggingface.co/llm-agents"><b>[🤗 HF Models]</b></a> •
+  <a href="https://github.com/microsoft/ToRA"><b>[🐱 GitHub]</b></a>
+  <!-- <a href="https://9557c5365a6f44dc84.gradio.live"><b>[🐯 Gradio Demo]</b></a> -->
+  <br>
+  <a href="https://twitter.com/zhs05232838/status/1708860992631763092"><b>[🐦 Twitter]</b></a> •
+  <a href="https://www.reddit.com/r/LocalLLaMA/comments/1703k6d/tora_a_toolintegrated_reasoning_agent_for/"><b>[💬 Reddit]</b></a> •
+  <a href="https://notes.aimodels.fyi/researchers-announce-tora-training-language-models-to-better-understand-math-using-external-tools/">[🍀 Unofficial Blog]</a>
+  <!-- <a href="#-quick-start">Quick Start</a> • -->
+  <!-- <a href="#%EF%B8%8F-citation">Citation</a> -->
+</p>
+
+
 >[!IMPORTANT]
 >このリポジトリは[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)を活用しており、リリースノートやREADME、コミットメッセージの9割は[SourceSage](https://github.com/Sunwood-ai-labs/SourceSage) ＋ [claude.ai](https://claude.ai/)で生成しています。
 
 
 ## 🌟 Introduction
+
+```bash
+
+アップロードした論文に対してなんJの架空のスレを創造的に下記の制約に基づいて書いて。
+
+# 必ず守る制約
+- レス番や名前、投稿日時、IDも書き、アンカーは全角で＞＞と書くこと。
+- IDはなんJ風のシンプルなIDにして
+- レス番と名前は太文字にして
+- 10人以上の初心者からあらゆる分野の専門家をスレ登場させてお互いに議論して理解を深めて
+- 名前にはどのような分野の人間かを記載すること
+- 活発にユーザー間で議論して理解を深めて
+- 必ず初心者を登場させて、初心者の質問を含めて
+- 論文の核心に迫る質問をして
+- 最後の人はスレをまとめて簡潔な箇条書きにして
+
+```
 
 ## 🎥 Demo
 
