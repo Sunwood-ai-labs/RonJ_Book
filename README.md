@@ -1,5 +1,5 @@
 <p align="center">
-<img src="docs/ronj_book_icon.png" width="100%">
+<img src="https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/RonJ_Icon.jpeg" width="100%">
 <br>
 <h1 align="center">RonJ:Book</h1>
 <h2 align="center">
