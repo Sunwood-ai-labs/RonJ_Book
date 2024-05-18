@@ -38,7 +38,6 @@
 ## 🌟 Introduction
 
 **RonJ：Book**は、論文をなんJ風のスレッド形式で解説するプロンプト集です。
-
 難しい論文の構成や文章も、初心者でも面白可笑しく理解することができます！
 
 「RonJ」は **R**ead **on** **J**ournalの略で、論文（Journal）を読む（Read）ことをなんJ（onJ）風に行うという意味合いが込められています。
@@ -60,9 +59,7 @@
 **RonJ：Book**のプロンプトはカスタマイズ可能です。論文の分野や難易度に合わせて、プロンプトを調整してみてください。
 
 ```bash
-
-アップロードした論文に対してなんJの架空のスレを創造的に下記の制約に基づいて書いて。
-
+アップロードした論文に対してなんJの架空のスレを創造的に下記の制約に基づいて書いて。 
 # 必ず守る制約
 - レス番や名前、投稿日時、IDも書き、アンカーは全角で＞＞と書くこと。
 - IDはなんJ風のシンプルなIDにして
@@ -73,7 +70,6 @@
 - 必ず初心者を登場させて、初心者の質問を含めて
 - 論文の核心に迫る質問をして
 - 最後の人はスレをまとめて簡潔な箇条書きにして
-
 ```
 
 <!-- ## 📝 Updates -->
@@ -82,6 +78,9 @@
 
 [Book/RonJ_Interactive_Thread_Viewer.md](Book/RonJ_Interactive_Thread_Viewer.md)
 
+### Streamlitアプリ
+
+`app.py`を実行すると、HTMLとCSSを組み合わせたStreamlitアプリとしてRonJスレッドを表示できます。
 
 ## 🤝 Contributing
 
@@ -94,7 +93,6 @@ RonJ：Bookは[MIT License](LICENSE)の下でリリースされています。
 ## 🙏 Acknowledgements
 
 RonJ：Bookの開発にあたり、以下の方々に感謝いたします:
-
 - [Sunwood-ai-labs](https://github.com/Sunwood-ai-labs)チームのメンバー
 - [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage)プロジェクト 
 - [claude.ai](https://claude.ai/)チーム
