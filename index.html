@@ -1,0 +1,201 @@
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Noto+Serif+JP&family=Shippori+Mincho+B1&display=swap"
+  rel="stylesheet"
+/>
+
+
+<br>
+<div class="name_l">
+  <b>1 名無しさん＠機械学習初心者 2024/05/16(木) 01:23:45.67 ID:ml1</b>
+</div>
+<div class="balloon_l">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <p class="says">
+    この論文、Transformer言語モデルが計画問題を解けるようになるって本当？すごい進歩じゃない？
+  </p>
+</div>
+
+<div class="name_r">
+  <b>2 名無しさん＠言語モデル研究者 2024/05/16(木) 01:25:12.34 ID:lm2</b>
+</div>
+<div class="balloon_r">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <div class="says">
+    <p>
+      ＞＞1
+      ある程度の計画問題は解けるみたいだね。でも任意の計画問題が解けるわけじゃないみたい。論文によると、隣接行列と限定的な到達可能行列を使った場合に、勾配ベースの学習で経路探索ができるようになるらしい。
+    </p>
+  </div>
+</div>
+
+<div class="name_l">
+  <b>3 名無しさん＠グラフ理論専門家 2024/05/16(木) 01:27:56.78 ID:gt3</b>
+</div>
+<div class="balloon_l">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <p class="says">
+    ＞＞2
+    そうそう、一般的な到達可能行列は無理みたいだけど、ある程度制約をかければ学習できるみたいだね。隣接行列はグラフの局所的な接続関係、到達可能行列はグローバルな接続関係を表現できるから、言語モデルがそれを学習することでグラフ構造を理解して経路探索できるようになるのかな。
+  </p>
+</div>
+
+<div class="name_r">
+  <b>4 名無しさん＠数学研究者 2024/05/16(木) 01:30:23.45 ID:ma4</b>
+</div>
+<div class="balloon_r">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <div class="says">
+    <p>
+      理論的にはグラフ構造をニューラルネットに埋め込むのは可能だとわかってたけど、Transformerでもできるんだね。attention
+      mechanismが
+      グラフ構造をうまく捉えられるのかな。数学的にはどういう原理なんだろ。
+    </p>
+  </div>
+</div>
+
+<div class="name_l">
+  <b>5 名無しさん＠機械学習エンジニア 2024/05/16(木) 01:33:11.22 ID:ml5</b>
+</div>
+<div class="balloon_l">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <p class="says">
+    ＞＞4
+    直感的には、attentionがグラフのエッジの重みを学習して、複数ステップのattentionでパス探索してるイメージかな。詳しいメカニズムは論文見ないとわからんけど。実験ではどんな感じだったんだろ。
+  </p>
+</div>
+
+<div class="name_r">
+  <b>6 名無しさん＠自然言語処理研究者 2024/05/16(木) 01:36:44.56 ID:nl6</b>
+</div>
+<div class="balloon_r">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <div class="says">
+    <p>
+      実験では、経路探索タスクを使ってるみたい。具体的には、ノードIDのシーケンスを入力して、2ノード間の最短経路を出力するタスクで評価してる。隣接行列と到達可能行列を使ったモデルが、ベースラインのTransformerより良い精度を達成してるね。
+    </p>
+  </div>
+</div>
+
+<div class="name_l">
+  <b>7 名無しさん＠機械学習初心者 2024/05/16(木) 01:39:12.33 ID:ml1</b>
+</div>
+<div class="balloon_l">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <p class="says">
+    ノードIDのシーケンスってどういうこと？グラフのどこからどこまでの経路を探すってこと？
+  </p>
+</div>
+
+<div class="name_r">
+  <b
+    >8 名無しさん＠グラフデータベース専門家 2024/05/16(木) 01:41:55.61 ID:gd8</b
+  >
+</div>
+<div class="balloon_r">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <div class="says">
+    <p>
+      ＞＞7
+      そういうことだね。例えば、ノード1からノード4までの経路を探すなら、[1,
+      4]というノードIDのシーケンスを入力する。で、モデルは1から4への最短経路、例えば[1,
+      2, 4]みたいなノードIDのシーケンスを出力する、という感じ。
+    </p>
+  </div>
+</div>
+
+<div class="name_l">
+  <b>9 名無しさん＠言語モデル研究者 2024/05/16(木) 01:45:22.78 ID:lm9 </b>
+</div>
+<div class="balloon_l">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <p class="says">
+    この成果を応用すれば、言語モデルに計画能力を持たせられそうだね。例えば、複数のサブゴールを達成するようなマルチステップのタスクを言語モデルに解かせたりできるかもしれない。言語モデルの応用範囲が広がりそう。
+  </p>
+</div>
+
+<div class="name_r">
+  <b>10 名無しさん＠機械学習エンジニア 2024/05/16(木) 01:48:43.45 ID:ml5</b>
+</div>
+<div class="balloon_r">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <div class="says">
+    <p>
+      ＞＞9
+      確かに！あとは、言語モデルに常識的な知識グラフを埋め込めば、言語理解や生成タスクでもグラフ的な推論が効くかもしれないね。応用の可能性は色々ありそう。
+    </p>
+  </div>
+</div>
+
+<div class="name_l">
+  <b>11 名無しさん＠金ロー名物レジェンド 2024/05/16(木) 01:52:11.22 ID:lg11</b>
+</div>
+<div class="balloon_l">
+  <div class="faceicon">
+    <img
+      src="https://raw.githubusercontent.com/Sunwood-ai-labs/PythonDiagrammatic/main/examples/diagrams/icon/diagrams_icon1.png"
+      alt=""
+    />
+  </div>
+  <div class="says">
+    ほな、今回の論文をまとめるで！ 
+    <ul>
+      <li>TransformerでグラフのノードをIDシーケンスで入力し、隣接行列と制約付き到達可能行列を埋め込むと、経路探索タスクができるようになる</li>
+      <li>理論解析の結果、隣接行列と制約付き到達可能行列は勾配ベース学習で獲得可能</li>
+      <li>attentionがグラフ構造の局所的・大域的特徴を捉えてパス探索してると推測される</li>
+      <li>実験では従来のTransformerより良い精度。言語モデルの計画推論能力を向上させる技術として有望そう</li>
+    </ul>    
+    こんなもんかな。AI研究、ほんますごいわ。
+  </div>
+</div>
