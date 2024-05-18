@@ -1,0 +1,91 @@
+
+body {
+    font-family: "Shippori Mincho B1", serif;
+}
+
+/*吹き出し*/
+.balloon_l,
+.balloon_r {
+  margin: 3px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; /*縦位置を上揃え*/
+  /*   align-items: center; */ /*縦位置を真ん中揃え*/
+  font-family: "Shippori Mincho B1", serif;
+}
+.balloon_r {
+  justify-content: flex-end;
+}
+.faceicon img {
+  width: 80px; /*任意のサイズ*/
+  height: auto;
+}
+.balloon_r .faceicon {
+  margin-left: 25px;
+}
+.balloon_l .faceicon {
+  margin-right: 25px;
+}
+
+.name_l,
+.name_r{
+    font-family: "Shippori Mincho B1", serif;
+    font-size: small;
+    margin: 30px 0px 0px 0px;
+}
+.name_l {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.name_r {
+    text-align: right;
+    margin-right: 25px;
+}
+
+.balloon_r .faceicon {
+  order: 2 !important;
+}
+.says {
+  max-width: 500px; /*最大幅は任意*/
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 17px 13px 15px 18px;
+  border-radius: 12px;
+  background: #024959; /*色は任意*/
+  box-sizing: border-box;
+  margin: 0 !important;
+  line-height: 1.5;
+  /*   align-items: center; */
+}
+
+p {
+    color: aliceblue;
+}
+
+.says {
+    color: aliceblue;
+}
+
+.says p {
+  margin: 8px 0 0 !important;
+}
+.says p:first-child {
+  margin-top: 0 !important;
+}
+.says:after {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  /*   margin-top:-3px;  */
+}
+.balloon_l .says:after {
+  left: -26px;
+  border-right: 22px solid #024959;
+}
+.balloon_r .says:after {
+  right: -26px;
+  border-left: 22px solid #024959;
+}
+
